@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ZyZ-pL-zG5">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Item-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="jeapordy" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="vYa-hF-TPA">
+                                <rect key="frame" x="0.0" y="8" width="393" height="681.66666666666674"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="7iW-Xf-vz5">
+                                        <rect key="frame" x="0.0" y="0.0" width="78.666666666666671" height="681.66666666666663"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qaL-FY-dKC">
+                                                <rect key="frame" x="0.0" y="0.0" width="78.666666666666671" height="105.33333333333333"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Qp-ak-pcP">
+                                                <rect key="frame" x="0.0" y="115.33333333333334" width="78.666666666666671" height="105.33333333333334"/>
+                                                <color key="backgroundColor" name="AccentColor"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="100"/>
+                                                <connections>
+                                                    <action selector="questionPresssed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sR3-XM-h8t"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gvd-pg-5cX">
+                                                <rect key="frame" x="0.0" y="230.66666666666663" width="78.666666666666671" height="105"/>
+                                                <color key="backgroundColor" name="AccentColor"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="200"/>
+                                                <connections>
+                                                    <action selector="questionPresssed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iAc-iX-tLh"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fbj-LO-Bpl">
+                                                <rect key="frame" x="0.0" y="345.66666666666669" width="78.666666666666671" height="105.33333333333331"/>
+                                                <color key="backgroundColor" name="AccentColor"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="300"/>
+                                                <connections>
+                                                    <action selector="questionPresssed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Tai-K2-CfB"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jVd-Ev-UeQ">
+                                                <rect key="frame" x="0.0" y="460.99999999999994" width="78.666666666666671" height="105.33333333333331"/>
+                                                <color key="backgroundColor" name="AccentColor"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="400"/>
+                                                <connections>
+                                                    <action selector="questionPresssed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="U6M-hS-60F"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fWZ-37-iHu">
+                                                <rect key="frame" x="0.0" y="576.33333333333337" width="78.666666666666671" height="105.33333333333337"/>
+                                                <color key="backgroundColor" name="AccentColor"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="500"/>
+                                                <connections>
+                                                    <action selector="questionPresssed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rcL-88-WX8"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="LmC-ma-Ifj">
+                                        <rect key="frame" x="78.666666666666657" y="0.0" width="78.666666666666657" height="681.66666666666663"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J2O-e8-G1p">
+                                                <rect key="frame" x="0.0" y="0.0" width="78.666666666666671" height="105.33333333333333"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JCf-2t-ykF">
+                                                <rect key="frame" x="0.0" y="115.33333333333334" width="78.666666666666671" height="105.33333333333334"/>
+                                                <color key="backgroundColor" name="AccentColor"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="100"/>
+                                                <connections>
+                                                    <action selector="questionPresssed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mC2-Bk-aMd"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hfG-j9-Pkp">
+                                                <rect key="frame" x="0.0" y="230.66666666666663" width="78.666666666666671" height="105"/>
+                                                <color key="backgroundColor" name="AccentColor"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="200"/>
+                                                <connections>
+                                                    <action selector="questionPresssed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UB8-Sb-aP5"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gkg-Pd-lM0">
+                                                <rect key="frame" x="0.0" y="345.66666666666669" width="78.666666666666671" height="105.33333333333331"/>
+                                                <color key="backgroundColor" name="AccentColor"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="300"/>
+                                                <connections>
+                                                    <action selector="questionPresssed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TfP-15-W6n"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KBB-7L-LKk">
+                                                <rect key="frame" x="0.0" y="460.99999999999994" width="78.666666666666671" height="105.33333333333331"/>
+                                                <color key="backgroundColor" name="AccentColor"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="400"/>
+                                                <connections>
+                                                    <action selector="questionPresssed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jZ4-Qi-oTj"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bQC-ah-w65">
+                                                <rect key="frame" x="0.0" y="576.33333333333337" width="78.666666666666671" height="105.33333333333337"/>
+                                                <color key="backgroundColor" name="AccentColor"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="500"/>
+                                                <connections>
+                                                    <action selector="questionPresssed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PGt-TA-dMe"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="z3I-wS-w4K">
+                                        <rect key="frame" x="157.33333333333334" y="0.0" width="78.333333333333343" height="681.66666666666663"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vsY-fs-AgP">
+                                                <rect key="frame" x="0.0" y="0.0" width="78.333333333333329" height="105.33333333333333"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sIb-On-GYm">
+                                                <rect key="frame" x="0.0" y="115.33333333333334" width="78.333333333333329" height="105.33333333333334"/>
+                                                <color key="backgroundColor" name="AccentColor"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="100"/>
+                                                <connections>
+                                                    <action selector="questionPresssed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9wE-5F-bdp"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VZk-h2-qCx">
+                                                <rect key="frame" x="0.0" y="230.66666666666663" width="78.333333333333329" height="105"/>
+                                                <color key="backgroundColor" name="AccentColor"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="200"/>
+                                                <connections>
+                                                    <action selector="questionPresssed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Cma-i4-Put"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="13" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zKN-ud-z0D">
+                                                <rect key="frame" x="0.0" y="345.66666666666669" width="78.333333333333329" height="105.33333333333331"/>
+                                                <color key="backgroundColor" name="AccentColor"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="300"/>
+                                                <connections>
+                                                    <action selector="questionPresssed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="clp-At-Bl0"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="14" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d3T-mK-t5L">
+                                                <rect key="frame" x="0.0" y="460.99999999999994" width="78.333333333333329" height="105.33333333333331"/>
+                                                <color key="backgroundColor" name="AccentColor"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="400"/>
+                                                <connections>
+                                                    <action selector="questionPresssed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GpZ-UL-8Rp"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="15" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JMy-8k-vKy">
+                                                <rect key="frame" x="0.0" y="576.33333333333337" width="78.333333333333329" height="105.33333333333337"/>
+                                                <color key="backgroundColor" name="AccentColor"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="500"/>
+                                                <connections>
+                                                    <action selector="questionPresssed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GQ1-vo-zVl"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="8RU-i0-G2H">
+                                        <rect key="frame" x="235.66666666666666" y="0.0" width="78.666666666666657" height="681.66666666666663"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fba-yN-2jg">
+                                                <rect key="frame" x="0.0" y="0.0" width="78.666666666666671" height="105.33333333333333"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" tag="16" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mLM-pn-QKa">
+                                                <rect key="frame" x="0.0" y="115.33333333333334" width="78.666666666666671" height="105.33333333333334"/>
+                                                <color key="backgroundColor" name="AccentColor"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="100"/>
+                                                <connections>
+                                                    <action selector="questionPresssed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ekr-Of-uwg"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="17" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2qa-5t-rO3">
+                                                <rect key="frame" x="0.0" y="230.66666666666663" width="78.666666666666671" height="105"/>
+                                                <color key="backgroundColor" name="AccentColor"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="200"/>
+                                                <connections>
+                                                    <action selector="questionPresssed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8FZ-XE-cS1"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="18" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uPd-eL-v0W">
+                                                <rect key="frame" x="0.0" y="345.66666666666669" width="78.666666666666671" height="105.33333333333331"/>
+                                                <color key="backgroundColor" name="AccentColor"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="300"/>
+                                                <connections>
+                                                    <action selector="questionPresssed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hdl-Rq-8eF"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="19" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gjM-jH-2vp">
+                                                <rect key="frame" x="0.0" y="460.99999999999994" width="78.666666666666671" height="105.33333333333331"/>
+                                                <color key="backgroundColor" name="AccentColor"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="400"/>
+                                                <connections>
+                                                    <action selector="questionPresssed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9WR-OZ-45B"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="20" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i1L-tT-xRu">
+                                                <rect key="frame" x="0.0" y="576.33333333333337" width="78.666666666666671" height="105.33333333333337"/>
+                                                <color key="backgroundColor" name="AccentColor"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="500"/>
+                                                <connections>
+                                                    <action selector="questionPresssed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pSd-QR-kLn"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="ded-a0-888">
+                                        <rect key="frame" x="314.33333333333331" y="0.0" width="78.666666666666686" height="681.66666666666663"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UnE-13-o8n">
+                                                <rect key="frame" x="0.0" y="0.0" width="78.666666666666671" height="105.33333333333333"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" tag="21" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UIv-ms-OXh">
+                                                <rect key="frame" x="0.0" y="115.33333333333334" width="78.666666666666671" height="105.33333333333334"/>
+                                                <color key="backgroundColor" name="AccentColor"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="100"/>
+                                                <connections>
+                                                    <action selector="questionPresssed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Nql-wu-8zZ"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="22" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u1Q-0x-Knd">
+                                                <rect key="frame" x="0.0" y="230.66666666666663" width="78.666666666666671" height="105"/>
+                                                <color key="backgroundColor" name="AccentColor"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="200"/>
+                                                <connections>
+                                                    <action selector="questionPresssed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4eR-cb-cOE"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="23" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hxu-9Q-2V3">
+                                                <rect key="frame" x="0.0" y="345.66666666666669" width="78.666666666666671" height="105.33333333333331"/>
+                                                <color key="backgroundColor" name="AccentColor"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="300"/>
+                                                <connections>
+                                                    <action selector="questionPresssed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LS4-fi-uVP"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="24" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z0s-Yv-STS">
+                                                <rect key="frame" x="0.0" y="460.99999999999994" width="78.666666666666671" height="105.33333333333331"/>
+                                                <color key="backgroundColor" name="AccentColor"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="400"/>
+                                                <connections>
+                                                    <action selector="questionPresssed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UDA-NZ-4mD"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="25" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0fd-8h-Q9n">
+                                                <rect key="frame" x="0.0" y="576.33333333333337" width="78.666666666666671" height="105.33333333333337"/>
+                                                <color key="backgroundColor" name="AccentColor"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="500"/>
+                                                <connections>
+                                                    <action selector="questionPresssed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cGq-G1-ATA"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vYa-hF-TPA" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" multiplier="0.8" id="9yA-jp-gBk"/>
+                            <constraint firstItem="vYa-hF-TPA" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.8" id="Ff5-gy-qOG"/>
+                            <constraint firstItem="vYa-hF-TPA" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Nyp-lf-9T5"/>
+                            <constraint firstItem="vYa-hF-TPA" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="ave-5x-M8N"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="Mi2-17-qyL"/>
+                    <navigationItem key="navigationItem" id="vK7-aq-tIk"/>
+                    <connections>
+                        <outletCollection property="categoryLabels" destination="qaL-FY-dKC" collectionClass="NSMutableArray" id="TUl-rE-sDx"/>
+                        <outletCollection property="categoryLabels" destination="J2O-e8-G1p" collectionClass="NSMutableArray" id="XQd-LW-3Ul"/>
+                        <outletCollection property="categoryLabels" destination="vsY-fs-AgP" collectionClass="NSMutableArray" id="aCb-Cd-nl1"/>
+                        <outletCollection property="categoryLabels" destination="fba-yN-2jg" collectionClass="NSMutableArray" id="l7F-xB-X8K"/>
+                        <outletCollection property="categoryLabels" destination="UnE-13-o8n" collectionClass="NSMutableArray" id="J8C-m8-e9r"/>
+                        <outletCollection property="cat1Buttons" destination="8Qp-ak-pcP" collectionClass="NSMutableArray" id="rL4-wT-IGP"/>
+                        <outletCollection property="cat1Buttons" destination="gvd-pg-5cX" collectionClass="NSMutableArray" id="JHd-4q-9sL"/>
+                        <outletCollection property="cat1Buttons" destination="fbj-LO-Bpl" collectionClass="NSMutableArray" id="FfH-eN-CUd"/>
+                        <outletCollection property="cat1Buttons" destination="jVd-Ev-UeQ" collectionClass="NSMutableArray" id="zve-MH-GA7"/>
+                        <outletCollection property="cat1Buttons" destination="fWZ-37-iHu" collectionClass="NSMutableArray" id="Uoy-Df-ML7"/>
+                        <outletCollection property="cat2Buttons" destination="JCf-2t-ykF" collectionClass="NSMutableArray" id="Zfm-vl-OPP"/>
+                        <outletCollection property="cat2Buttons" destination="hfG-j9-Pkp" collectionClass="NSMutableArray" id="4kO-X0-6gd"/>
+                        <outletCollection property="cat2Buttons" destination="gkg-Pd-lM0" collectionClass="NSMutableArray" id="QR0-W1-7L4"/>
+                        <outletCollection property="cat2Buttons" destination="KBB-7L-LKk" collectionClass="NSMutableArray" id="7qP-gZ-bZb"/>
+                        <outletCollection property="cat2Buttons" destination="bQC-ah-w65" collectionClass="NSMutableArray" id="HbF-ho-PWl"/>
+                        <outletCollection property="cat3Buttons" destination="sIb-On-GYm" collectionClass="NSMutableArray" id="QWq-EU-KYO"/>
+                        <outletCollection property="cat3Buttons" destination="VZk-h2-qCx" collectionClass="NSMutableArray" id="pQK-hH-ow5"/>
+                        <outletCollection property="cat3Buttons" destination="zKN-ud-z0D" collectionClass="NSMutableArray" id="dB6-iF-JeZ"/>
+                        <outletCollection property="cat3Buttons" destination="d3T-mK-t5L" collectionClass="NSMutableArray" id="HqE-bF-tEv"/>
+                        <outletCollection property="cat3Buttons" destination="JMy-8k-vKy" collectionClass="NSMutableArray" id="jRv-cr-cBS"/>
+                        <outletCollection property="cat4Buttons" destination="mLM-pn-QKa" collectionClass="NSMutableArray" id="V88-H6-29s"/>
+                        <outletCollection property="cat5Buttons" destination="UIv-ms-OXh" collectionClass="NSMutableArray" id="hxW-CS-Pqn"/>
+                        <outletCollection property="cat4Buttons" destination="2qa-5t-rO3" collectionClass="NSMutableArray" id="XgF-h9-Qd4"/>
+                        <outletCollection property="cat4Buttons" destination="uPd-eL-v0W" collectionClass="NSMutableArray" id="gGd-2J-8EO"/>
+                        <outletCollection property="cat4Buttons" destination="gjM-jH-2vp" collectionClass="NSMutableArray" id="gGb-0o-WIH"/>
+                        <outletCollection property="cat4Buttons" destination="i1L-tT-xRu" collectionClass="NSMutableArray" id="iev-e7-kUk"/>
+                        <outletCollection property="cat5Buttons" destination="u1Q-0x-Knd" collectionClass="NSMutableArray" id="gFn-zb-w4W"/>
+                        <outletCollection property="cat5Buttons" destination="Hxu-9Q-2V3" collectionClass="NSMutableArray" id="aag-2B-T6e"/>
+                        <outletCollection property="cat5Buttons" destination="Z0s-Yv-STS" collectionClass="NSMutableArray" id="80s-ZS-q6o"/>
+                        <outletCollection property="cat5Buttons" destination="0fd-8h-Q9n" collectionClass="NSMutableArray" id="xjw-Ta-GkG"/>
+                        <segue destination="QQv-rF-qX7" kind="show" identifier="goQuestion" id="ArR-Ul-AzM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1205" y="425"/>
+        </scene>
+        <!--Question View Controller-->
+        <scene sceneID="gih-a5-L5c">
+            <objects>
+                <viewController id="QQv-rF-qX7" customClass="QuestionViewController" customModule="jeapordy" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NOr-7o-wHD">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="irz-N4-lNR">
+                                <rect key="frame" x="0.0" y="155.33333333333337" width="393" height="426"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="7Gp-o3-aYe"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="irz-N4-lNR" firstAttribute="width" secondItem="NOr-7o-wHD" secondAttribute="width" id="8el-DE-KlS"/>
+                            <constraint firstItem="irz-N4-lNR" firstAttribute="height" secondItem="NOr-7o-wHD" secondAttribute="height" multiplier="0.5" id="LK2-e4-XEw"/>
+                            <constraint firstItem="irz-N4-lNR" firstAttribute="centerX" secondItem="7Gp-o3-aYe" secondAttribute="centerX" id="s44-wX-n3j"/>
+                            <constraint firstItem="irz-N4-lNR" firstAttribute="centerY" secondItem="7Gp-o3-aYe" secondAttribute="centerY" multiplier="0.8" id="yQi-F1-Dlv"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="jZh-V6-xtc"/>
+                    <connections>
+                        <outlet property="questionLabel" destination="irz-N4-lNR" id="lC4-HD-aed"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e6o-fS-HEn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1944" y="425"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="I3A-Qh-5H4">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ZyZ-pL-zG5" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="CCI-aR-Zg9">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="hDi-NT-NKy" kind="relationship" relationship="rootViewController" id="lkL-56-Fdp"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ovg-mb-oOA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138.1679389312977" y="-2.1126760563380285"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="d5s-uy-PaH">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="hDi-NT-NKy" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="3Fu-CC-AIT"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="q95-X8-j6s">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="89A-PP-P9t"/>
+                        <segue destination="v1J-0C-8wd" kind="relationship" relationship="viewControllers" id="uyr-Zc-wnP"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IWM-a5-bvi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1205" y="-414"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="cCv-27-UeW">
+            <objects>
+                <viewController id="v1J-0C-8wd" customClass="SetupViewController" customModule="jeapordy" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ySE-Ed-et9">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="XxK-0H-51c"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="Ksw-rB-kZr"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jSA-lx-aPg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2039" y="-414"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
